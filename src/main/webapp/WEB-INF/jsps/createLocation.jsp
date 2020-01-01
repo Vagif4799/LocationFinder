@@ -8,14 +8,20 @@
 </head>
 <body>
 
-<form action="" method="post">
+<form action="saveLoc" method="post">
+      <pre>
 Id: <input type="text" name="id"/>
 Code: <input type="text" name="code"/>
 Name: <input type="text" name="name"/>
-Type: Urban <input type="radio" name="type"/>
-      Rural <input type="radio" name="type"/>
+Type: Urban <input type="radio" name="type" value="URBAN" />
+      Rural <input type="radio" name="type" value="RURAL" />
       <input type="submit" value="save"/>
+      </pre>
 </form>
+${msg}
+
+<a href="displayLocations">View All</a>
+
 
 </body>
 </html>

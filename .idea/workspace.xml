@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f1e3a-24a7-46ea-bbc4-e299b93dc9cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/createLocation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/displayLocations.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/updateLocation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/LocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/LocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Message.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/createLocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/createLocation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/LocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/LocationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/model/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,19 +85,21 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/app" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="app.repository" />
       <recent name="app.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,7 +146,7 @@
       <updated>1577793906280</updated>
       <workItem from="1577793910170" duration="6123000" />
       <workItem from="1577856124707" duration="2185000" />
-      <workItem from="1577861388062" duration="626000" />
+      <workItem from="1577861388062" duration="5941000" />
     </task>
     <task id="LOCAL-00001" summary="-- LocationFinder app set up">
       <created>1577821946103</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577822065833</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-- Create Page is working">
+      <created>1577862948038</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577862948039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-- LocationFinder app set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- LocationFinder app set up" />
+    <MESSAGE value="-- Create Page is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Create Page is working" />
   </component>
 </project>
