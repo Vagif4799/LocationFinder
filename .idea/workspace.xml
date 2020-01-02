@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50f1e3a-24a7-46ea-bbc4-e299b93dc9cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/util/ReportUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/app/util/ReportUtilImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/report.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/controller/LocationRESTController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/LocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/LocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/repository/LocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/repository/LocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/LocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/LocationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/repository/LocationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/repository/LocationRepository.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +142,7 @@
       <workItem from="1577793910170" duration="6123000" />
       <workItem from="1577856124707" duration="2185000" />
       <workItem from="1577861388062" duration="12656000" />
-      <workItem from="1577940604092" duration="4549000" />
+      <workItem from="1577940604092" duration="6079000" />
     </task>
     <task id="LOCAL-00001" summary="-- LocationFinder app set up">
       <created>1577821946103</created>
@@ -185,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577942534973</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="-- Chart Representation added">
+      <created>1577946995658</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577946995658</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +210,7 @@
     <MESSAGE value="-- Create Page is working" />
     <MESSAGE value="-- Location Finder App (Final Version)" />
     <MESSAGE value="-- Email Utility added" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Email Utility added" />
+    <MESSAGE value="-- Chart Representation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Chart Representation added" />
   </component>
 </project>
