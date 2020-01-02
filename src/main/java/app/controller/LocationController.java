@@ -2,6 +2,7 @@ package app.controller;
 
         import app.model.Location;
         import app.service.LocationService;
+        import app.util.EmailUtil;
         import org.springframework.beans.factory.annotation.Autowired;
         import org.springframework.stereotype.Controller;
         import org.springframework.ui.ModelMap;
@@ -19,6 +20,9 @@ public class LocationController {
     @Autowired
     LocationService service;
 
+    @Autowired
+    EmailUtil emailUtil;
+
     @RequestMapping("/showCreate")
     public String showCreate() {
         return "createLocation";
@@ -29,6 +33,7 @@ public class LocationController {
         Location locationSaved = service.saveLocation(location);
         String msg = "Location saved with id: " + locationSaved.getId();
         modelMap.addAttribute("msg", msg);
+        emailUtil.sendEmail("vagif.dev@gmail.com", "Location Saved", "Location Saved Successfully and about return a response.");
         return "createLocation";
     }
 

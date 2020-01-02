@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<h2>Lcoations</h2>
+<h2>Locations</h2>
 <table>
       <tr>
             <th>id</th>

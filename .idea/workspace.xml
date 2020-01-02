@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d50f1e3a-24a7-46ea-bbc4-e299b93dc9cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/displayLocations.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/updateLocation.jsp" afterDir="false" />
+    <list default="true" id="d50f1e3a-24a7-46ea-bbc4-e299b93dc9cd" name="Default Changelist" comment="-- Location Finder App (Final Version)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/util/EmailUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/util/EmailUtilImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/LocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/controller/LocationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/createLocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/createLocation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/displayLocations.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsps/displayLocations.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/controller/LocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/LocationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +59,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -146,7 +146,8 @@
       <updated>1577793906280</updated>
       <workItem from="1577793910170" duration="6123000" />
       <workItem from="1577856124707" duration="2185000" />
-      <workItem from="1577861388062" duration="5941000" />
+      <workItem from="1577861388062" duration="12656000" />
+      <workItem from="1577940604092" duration="1432000" />
     </task>
     <task id="LOCAL-00001" summary="-- LocationFinder app set up">
       <created>1577821946103</created>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577862948039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-- Location Finder App (Final Version)">
+      <created>1577874793966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577874793966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +199,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-- LocationFinder app set up" />
     <MESSAGE value="-- Create Page is working" />
-    <option name="LAST_COMMIT_MESSAGE" value="-- Create Page is working" />
+    <MESSAGE value="-- Location Finder App (Final Version)" />
+    <option name="LAST_COMMIT_MESSAGE" value="-- Location Finder App (Final Version)" />
   </component>
 </project>
